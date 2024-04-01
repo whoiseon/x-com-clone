@@ -1,4 +1,4 @@
-import styles from '@/app/page.module.css';
+import styles from '@/app/(beforeLogin)/_components/main.module.css';
 
 interface Props {
   children: React.ReactNode;

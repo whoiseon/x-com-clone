@@ -1,7 +1,13 @@
-import { redirect } from 'next/navigation';
+import RedirectToLogin from '@/app/(beforeLogin)/login/_component/RedirectToLogin';
+import Main from '@/app/(beforeLogin)/_components/Main';
 
 function LoginPage() {
-  return redirect('/i/flow/login');
+  return (
+    <>
+      <RedirectToLogin />
+      <Main />
+    </>
+  );
 }
 
 export default LoginPage;
